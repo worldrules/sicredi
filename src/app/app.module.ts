@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ResultadoComponent } from './resultado/resultado.component';
+import { ChatModule } from './chat/chat.module';
+
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,8 @@ import { ResultadoComponent } from './resultado/resultado.component';
     ResultadoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ChatModule
   ],
   providers: [],
   bootstrap: [AppComponent]
