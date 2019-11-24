@@ -1,6 +1,9 @@
 import { element } from 'protractor';
 import { BootService } from '../boot.service';
+import { DadosService } from '../dados.service';
+
 import { Component, ViewChild, ElementRef } from '@angular/core';
+import { JsonPipe } from '@angular/common';
 
 export interface Message {
   remetente?: string;
@@ -20,8 +23,13 @@ export class BotComponent {
   msg: string;
   resultados: Message[]
 
-  constructor(private chatBoot: BootService) {
+  constructor(private chatBoot: BootService, private dados: DadosService) {
     this.initBoot()
+
+    dados.getAll();
+
+
+
   }
 
   initBoot() {
