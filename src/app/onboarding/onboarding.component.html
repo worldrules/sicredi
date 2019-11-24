@@ -1,5 +1,16 @@
 <section>
-  <img src="assets/images/logo.jpg" alt="Me leva pra escola." class="img-fluid" />
-  <p></p>
-  <button class="btn btn-onboard">Procurar escolas</button>
+  <img
+    src="assets/images/logo.jpg"
+    alt="Me leva pra escola."
+    class="img-fluid"
+  />
+  <p>
+    Olá, bem vindo ao Ache Minha Escola! Aqui você irá encontrar informações
+    detalhadas sobre as escola de Porto Alegre a assim poder escolher a que
+    melhor atende suas necessidades. Clique em "Comece por Aqui" e converse com
+    a Sora, nossa assistente virtual que irá acompanhar você nesta jornada.
+  </p>
+  <button class="btn btn-onboard" [routerLink]="['/bot']">
+    Procurar escolas
+  </button>
 </section>
