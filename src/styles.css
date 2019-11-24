@@ -11,7 +11,7 @@ body {
   background-color: var(--background);
 }
 
-.card {
+.card:not(.card-geral) {
   margin-bottom: 1rem;
 }
 
