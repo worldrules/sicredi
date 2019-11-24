@@ -1,0 +1,6 @@
+.btn-onboard {
+    color: #fff;
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+    margin: auto;
+}

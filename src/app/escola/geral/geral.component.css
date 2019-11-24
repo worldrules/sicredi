@@ -21,6 +21,7 @@ h1 + img {
 h2 {
   font-size: 19px;
   text-align: left;
+  color: var(--cor-primaria);
 }
 
 .card-header {
@@ -35,6 +36,7 @@ h2 {
   top: 50%;
   right: 14px;
   margin-top: -3px;
+  color: var(--cor-primaria);
 }
 
 .btn-link:not(.collapsed) .card-header:before {
