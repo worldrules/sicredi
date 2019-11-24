@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --cor-primaria: ;
-  --cor-secundaria: ;
+  --cor-primaria: #3163a6;
+  --cor-secundaria: #b175ff;
   --background: #fdfdfd;
   --texto-primario: ;
   --texto-secundario: ;
@@ -9,7 +9,7 @@
 
 body {
   background-color: var(--background);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .card:not(.card-geral) {
@@ -17,5 +17,10 @@ body {
 }
 
 button[type="submit"] {
-    width: 100%;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--cor-primaria);
+  border-color: var(--cor-primaria);
 }
