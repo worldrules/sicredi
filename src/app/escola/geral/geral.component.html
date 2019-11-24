@@ -1,11 +1,11 @@
 <div class="accordion" id="info-geral">
   <div class="card card-geral">
     <button
-      class="btn btn-link"
+      class="btn btn-link collapsed"
       type="button"
       data-toggle="collapse"
       data-target="#collapseGuia"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="collapseGuia"
     >
       <div class="card-header" id="headingGuia">
@@ -17,14 +17,17 @@
 
     <div
       id="collapseGuia"
-      class="collapse show"
+      class="collapse"
       aria-labelledby="headingGuia"
       data-parent="#info-geral"
     >
       <div class="card-body">
-        <h1 class="nome-escola">Colégio Anchieta</h1>
-        <iframe class="video-tour" src="https://youtube.com/embed/Yb3mUxjPqr8">
-        </iframe>
+        <div class="video-container">
+          <iframe
+            class="video-tour"
+            src="https://youtube.com/embed/Yb3mUxjPqr8"
+          ></iframe>
+        </div>
         <p class="descricao-tour">
           Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -64,17 +67,20 @@
       data-parent="#info-geral"
     >
       <div class="card-body">
-        <p>Laboratório de informática: sim</p>
-        <p>Quadra coberta: sim</p>
-        <p>Quadra aberta: sim</p>
-        <p>Biblioteca: sim</p>
-        <p>Sala de leitura: sim</p>
-        <p>Parque infantil: sim</p>
-        <p>Refeitório: sim</p>
-        <p>Pátio coberto: sim</p>
-        <p>Pátio aberto: sim</p>
-        <p>Área verde: sim</p>
-        <p>Internet: sim</p>
+        <ul>
+          <li>Alimentação: sim</li>
+          <li>Laboratório de informática: sim</li>
+          <li>Quadra coberta: sim</li>
+          <li>Quadra aberta: sim</li>
+          <li>Biblioteca: sim</li>
+          <li>Sala de leitura: sim</li>
+          <li>Parque infantil: sim</li>
+          <li>Refeitório: sim</li>
+          <li>Pátio coberto: sim</li>
+          <li>Pátio aberto: sim</li>
+          <li>Área verde: sim</li>
+          <li>Internet: sim</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -99,7 +105,14 @@
       aria-labelledby="headingMetodo"
       data-parent="#info-geral"
     >
-      <div class="card-body"></div>
+      <div class="card-body">
+        <h3>Metodologia de ensino Construtivista</h3>
+        <p>
+          Essa metodologia de ensino entende que o aluno é a peça central na
+          aprendizagem. Por isso, ele deve ser estimulado a conquistar
+          independência, resolver problemas e elaborar hipóteses e perguntas.
+        </p>
+      </div>
     </div>
   </div>
   <div class="card card-geral">
@@ -123,7 +136,13 @@
       aria-labelledby="headingValores"
       data-parent="#info-geral"
     >
-      <div class="card-body"></div>
+      <div class="card-body">
+        <p>Valor: 700,00</p>
+        <p>
+          Oferece bolsa? Sim. Para mais informações, entre em contato com a
+          instituição.
+        </p>
+      </div>
     </div>
   </div>
   <div class="card card-geral">
@@ -137,7 +156,7 @@
     >
       <div class="card-header" id="headingA11y">
         <h2 class="mb-0">
-          Assessibilidade
+          Acessibilidade
         </h2>
       </div>
     </button>
@@ -148,10 +167,12 @@
       data-parent="#info-geral"
     >
       <div class="card-body">
-        <p>Atendimento especial: sim</p>
-        <p>Classe especial exclusiva: sim</p>
-        <p>Banheiro acessível: sim</p>
-        <p>Dependências: sim</p>
+        <ul>
+          <li>Atendimento especial: sim</li>
+          <li>Classe especial exclusiva: sim</li>
+          <li>Banheiro acessível: sim</li>
+          <li>Dependências: sim</li>
+        </ul>
       </div>
     </div>
   </div>

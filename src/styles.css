@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --cor-primaria: #3163a6;
-  --cor-secundaria: #b175ff;
   --background: #fdfdfd;
-  --texto-primario: ;
-  --texto-secundario: ;
+  --azul-escuro: #3831a0;
+  --azul-claro: #2e96fc;
+  --laranja: #fea431;
+  --vermelho: #d60246;
 }
 
 body {
@@ -25,10 +25,10 @@ button[type="submit"] {
 }
 
 .btn-primary {
-  background-color: var(--cor-primaria);
-  border-color: var(--cor-primaria);
+  background-color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
 }
 
 a {
-  color: var(--cor-primaria);
+  color: var(--azul-escuro);
 }

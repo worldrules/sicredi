@@ -7,7 +7,7 @@
 }
 
 .comentario .fa-star {
-    color: #ffd400;
+    color: var(--laranja);
     margin-right: .25rem;
 }
 
