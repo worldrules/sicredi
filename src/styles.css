@@ -1,13 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --cor-primaria: ;
-    --cor-secundaria: ;
-    --background: #fdfdfd;
-    --texto-primario: ;
-    --texto-secundario: ;
-    
+  --cor-primaria: ;
+  --cor-secundaria: ;
+  --background: #fdfdfd;
+  --texto-primario: ;
+  --texto-secundario: ;
 }
 
 body {
-    background-color: var(--background);
+  background-color: var(--background);
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%;
 }

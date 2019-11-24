@@ -1,6 +1,6 @@
 .video-tour {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .fa {
@@ -13,7 +13,7 @@
 }
 
 .fa:not(:last-child) {
-    margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .fa:hover {
@@ -34,4 +34,3 @@
   background: #dd4b39;
   color: white;
 }
-
