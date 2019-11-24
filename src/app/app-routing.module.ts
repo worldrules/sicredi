@@ -7,12 +7,16 @@ import { IndicesComponent } from "./escola/indices/indices.component";
 import { ComentariosComponent } from "./escola/comentarios/comentarios.component";
 import { ContatoComponent } from "./escola/contato/contato.component";
 import { EscolaComponent } from "./escola/escola.component";
-import { ngModuleJitUrl } from "@angular/compiler";
+import { BotComponent } from './bot/bot.component';
 
 const routes: Routes = [
   {
     path: "resultado",
     component: ResultadoComponent
+  },
+  {
+    path: "bot",
+    component: BotComponent
   },
   {
     path: "escola",

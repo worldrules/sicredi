@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,6 +11,10 @@ import { ComentariosComponent } from './escola/comentarios/comentarios.component
 import { ContatoComponent } from './escola/contato/contato.component';
 import { OnboardingComponent } from './onboarding/onboarding.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BotComponent } from './bot/bot.component';
+import { FormsModule  } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -20,11 +25,14 @@ import { AppRoutingModule } from './app-routing.module';
     IndicesComponent,
     ComentariosComponent,
     ContatoComponent,
-    OnboardingComponent
+    OnboardingComponent,
+    BotComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
