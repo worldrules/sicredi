@@ -1,8 +1,10 @@
 .btn-filtros {
   width: calc(100% - 2rem);
   margin: 1rem;
-  border: 2px solid;
+  border: 2px solid var(--azul-escuro);
   font-size: 1.1rem;
+  color: #fff;
+  background-color: var(--azul-escuro);
 }
 
 .card-escola {
@@ -36,14 +38,19 @@
   font-size: 0.8rem;
 }
 
-.card-escola .badge:not(:first-of-type) {
-  margin-left: 5px;
+.metodos {
+  margin-top: 1rem;
 }
 
-.card-escola .com-vagas {
+.card-escola .badge:not(:last-of-type) {
+  margin-right: 5px;
 }
 
-.card-escola .sem-vagas {
+.card-escola .card-title, .endereco {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .modal-dialog {

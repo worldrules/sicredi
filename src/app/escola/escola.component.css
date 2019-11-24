@@ -44,6 +44,14 @@
   position: relative;
 }
 
+.info-colegio h1 {
+  margin-bottom: 1rem;
+}
+
+.info-colegio img {
+  margin-bottom: 1rem;
+}
+
 .info-colegio .avaliacao-geral {
   position: absolute;
   top: 0;

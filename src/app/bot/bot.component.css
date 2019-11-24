@@ -4,7 +4,7 @@
   padding: 20px 10px 0 10px;
   margin: 0;
   overflow: auto;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 120px);
   box-sizing: border-box;
 }
 
@@ -118,8 +118,19 @@ input {
   text-align: right;
 }
 
-.sendbtn {
+.sendbtn,
+.btn-pular {
   width: 100%;
   border-radius: 10px;
   text-transform: uppercase;
+}
+
+.sendbtn {
+  background-color: var(--laranja);
+  border-color: var(--laranja);
+}
+
+.btn-pular {
+  background-color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
 }
