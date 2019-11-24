@@ -1,0 +1,12 @@
+.comentario {
+    margin-top: 1rem;
+}
+
+.comentario .fa-star {
+    color: #ffd400;
+    margin-right: .25rem;
+}
+
+.comentario p {
+    margin-bottom: 0;
+}

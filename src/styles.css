@@ -2,8 +2,12 @@
 :root {
     --cor-primaria: ;
     --cor-secundaria: ;
-    --background: ;
+    --background: #fdfdfd;
     --texto-primario: ;
     --texto-secundario: ;
     
+}
+
+body {
+    background-color: var(--background);
 }
