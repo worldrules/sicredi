@@ -1,9 +1,31 @@
 <div class="container">
-  <div class="btn-group" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-secondary">Geral</button>
-    <button type="button" class="btn btn-secondary">Índices</button>
-    <button type="button" class="btn btn-secondary">Comentários</button>
-    <button type="button" class="btn btn-secondary">Contato</button>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" id="geral-tab" data-toggle="tab" href="#geral">Geral</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="indices-tab" data-toggle="tab" href="#indices">Índices</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios">Comentários</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="contato-tab" data-toggle="tab" href="#contato">Contato</a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="geral" class="tab-pane fade show active" role="tabpanel" aria-labelledby="geral-tab">
+      <app-geral></app-geral>
+    </div>
+    <div id="indices" class="tab-pane fade" role="tabpanel" aria-labelledby="indices-tab">
+      <app-indices></app-indices>
+    </div>
+    <div id="comentarios" class="tab-pane fade" role="tabpanel" aria-labelledby="comentarios-tab">
+      <app-comentarios></app-comentarios>
+    </div>
+    <div id="contato" class="tab-pane fade" role="tabpanel" aria-labelledby="contato-tab">
+      <app-contato></app-contato>
+    </div>
   </div>
-  
 </div>
