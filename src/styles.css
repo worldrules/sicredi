@@ -9,6 +9,7 @@
 
 body {
   background-color: var(--background);
+  font-family: 'Roboto', sans-serif;
 }
 
 .card:not(.card-geral) {

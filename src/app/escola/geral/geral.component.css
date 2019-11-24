@@ -1,6 +1,21 @@
+.accordion {
+  margin-bottom: 1rem;
+}
+
 .btn-link {
   padding: 0;
   border: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1 + img {
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
 
 h2 {
@@ -13,7 +28,7 @@ h2 {
 }
 
 .card-header:before {
-  content: '';
+  content: "";
   border: 6px solid transparent;
   border-top-color: inherit;
   position: absolute;
@@ -35,12 +50,13 @@ h2 {
 }
 
 .fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 60px;
+  padding: 12px;
+  font-size: 25px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 .fa:not(:last-child) {
