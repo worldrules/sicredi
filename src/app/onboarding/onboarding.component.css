@@ -16,6 +16,6 @@ section p {
 
 .btn-onboard {
   color: #fff;
-  background-color: var(--cor-primaria);
-  border-color: var(--cor-primaria);
+  background-color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
 }

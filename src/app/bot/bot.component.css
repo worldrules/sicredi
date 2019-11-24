@@ -1,14 +1,10 @@
-.row {
-  margin-top: 30px;
-}
-
 .messages {
   position: relative;
   list-style: none;
   padding: 20px 10px 0 10px;
   margin: 0;
-  overflow: scroll;
-  height: 600px;
+  overflow: auto;
+  height: calc(100vh - 90px);
   box-sizing: border-box;
 }
 
@@ -37,7 +33,7 @@
 }
 
 .messages .message.left .text {
-  color: #c48843;
+  color: #585450;
 }
 
 .messages .message.right .avatar {
@@ -58,7 +54,7 @@
 }
 
 .messages .message.right .text {
-  color: #45829b;
+  color: #585450;
   text-align: right;
 }
 
